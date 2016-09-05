@@ -7,12 +7,12 @@
 		<script type="text/javascript" src="func.js"></script>
 	</head>
 
-	
+
 	<body onload="clickMenu('outer','div','more')">
 		<div style="display: none" id="goTopBtn">
 			<img src="images/toTop.png">
 		</div>
-		<script type=text/javascript> goTopEx(); </script> 
+		<script type=text/javascript> goTopEx(); </script>
 		<div class="container">
 			<div class="header">
 				<table width="916" border="0" align="center">
@@ -32,8 +32,21 @@
 					</tr>
 				</table>
 			</div><!-- end .header -->
-			
+
 			<div class="content">
+								<a href="javascript:show('benchmark');"><h3>OS X EI Capitan Micro Benchmarking</h3></a>
+								<div class="hidden" id="benchmark">
+										<h4>Description</h4>
+										<p align="justify">
+										This project is the course project for CSE221. The purpose of this project is to measure the performance for a machine with the given hardware. It is also meaningful to analyze how this performance affects the software services. To achieve these two goals, we used the C programming language to implement a series of experiments. The compiler version is GCC 4.2.1 nearly without any optimization settings (compiled with “-O0”). The only optimization is to unroll all the loops by compiling with “-funroll-all-loops”. When performing all the experiments, we turned off the hardware multithreading and limited the number of active processor cores to one. We also gave the highest priority when running our program. This can be obtained by typing “sudo nice -20 ./prog” in the terminal, when we were running the program “prog”.
+										</p>
+										<p align="center"><img src="images/osBenchmark.png" alt="" /></p>
+										<h4>Member</h4>
+										<p>Qian Wang, Junxia Zhuge &amp; Xiangyu Wang</p>
+                    <h4>Final Report</h4>
+                    <p><a href="resources/cse221FinalReport.pdf">PDF version</a></p>
+								</div> <!-- end of mesh -->
+
                 <a href="javascript:show('eye');"><h3>Eye: Color-Blind Friendly Chrome Extension</h3></a>
                 <div class="hidden" id="eye">
                     <h4>Description</h4>
@@ -46,7 +59,7 @@
                     <h4>Chrome Extension</h4>
                     <p><a href="https://chrome.google.com/webstore/detail/eye/epoebkjflhhidcopbenmmilgopgppcfg?utm_source=chrome-ntp-icon">Eye</a></p>
                 </div> <!-- end of mesh -->
-                
+
                 <a href="javascript:show('mesh');"><h3>2D Quad-Mesh Generation for Ship Assembly</h3></a>
                 <div class="hidden" id="mesh">
                     <h4>Description</h4>
@@ -57,7 +70,7 @@
                     <h4>Member</h4>
                     <p>Qian Wang, Jinsong Bao, Chao Xun, Yijun Pan &amp; Junjie Tang</p>
                 </div> <!-- end of mesh -->
-                
+
                 <a href="javascript:show('sms4');"><h3>White-Box SMS4 Algorithm Investigation and Realization</h3></a>
                 <div class="hidden" id="sms4">
                     <h4>Description</h4>
@@ -76,7 +89,7 @@
                     <h4>Demonstration Program</h4>
                     <p><a href="resources/whiteBoxDemo.exe">EXE version</a></p>
                 </div> <!-- end of sms4 -->
-                
+
                 <a href="javascript:show('camera');"><h3>Head Wearing Eye-Tracking Camera (Major Design Capstone Project)</h3></a>
                 <div class="hidden" id="camera">
                     <h4>Description</h4>
@@ -95,7 +108,7 @@
                     <h4>Final Report</h4>
                     <p><a href="resources/ve450FinalReport.pdf">PDF version</a></p>
                 </div> <!-- end of caera -->
-                
+
                 <a href="javascript:show('shell');"><h3>Simplified User Shell Implementation (Course Project for VE482)</h3></a>
                 <div class="hidden" id="shell">
                     <h4>Description</h4>
@@ -111,7 +124,7 @@
                     <h4>Source code</h4>
                     <p><a href="resources/ve482Code.cpp">CPP version</a></p>
                 </div> <!-- end of shell -->
-                
+
                 <a href="javascript:show('p2p');"><h3>Peer-to-Peer Communication for File Sharing (Course Project for VE489)</h3></a>
                 <div class="hidden" id="p2p">
                     <h4>Description</h4>
@@ -125,7 +138,7 @@
                     <h4>Member</h4>
                     <p>Qian Wang, Yanrong Li, Liyu Wang &amp; Aimin Tang</p>
                 </div> <!-- end of more -->
-                
+
                 <a href="javascript:show('piano');"><h3>PIC32 Based Multifunctional Electronic Piano (Course Project for VE373)</h3></a>
                 <div class="hidden" id="piano">
                     <h4>Description</h4>
@@ -141,7 +154,7 @@
                     <h4>Final Report</h4>
                     <p><a href="resources/ve373FinalReport.pdf">PDF version</a></p>
                 </div> <!-- end of piano -->
-                
+
                 <a href="javascript:show('cpu');"><h3>Pipelined Processor Modeling(Course Project for VE370)</h3></a>
                 <div class="hidden" id="cpu">
                     <h4>Description</h4>
@@ -157,7 +170,7 @@
                         <h4>Final Report</h4>
                         <p><a href="resources/ve370FinalReport.pdf">PDF version</a></p>
                 </div> <!-- end of cpu -->
-                
+
                 <a href="javascript:show('air');"><h3>Air Conditioner Wind Direction Adjuster (Course Project for VG100)</h3></a>
                 <div class="hidden" id="air">
                     <h4>Description</h4>
@@ -180,7 +193,7 @@
                     <p><a href="resources/vg100FinalReport.pdf">PDF version</a></p>
                 </div> <!-- end of air -->
 			</div> <!-- end of content -->
-		
+
 			<div class="footer">
                 <span style="color: #444; font-weight: bold; font-size: x-small;">
                     Copyright © 2014 - 2016 Qian Wang (Last updated: Jan. 3rd, 2016)
